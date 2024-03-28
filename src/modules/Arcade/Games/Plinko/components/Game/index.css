@@ -1,0 +1,46 @@
+div[class*="rnc__notification"] {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.plinko-game-container {
+  display: flex;
+  gap: 50px;
+  margin-inline: 24px;
+  align-items: flex-start;
+}
+
+.plinko-game-container canvas {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+}
+
+.betactions-container {
+  max-width: 496px!important;
+}
+
+@media (min-width: 900px) {
+  .plinko-game-container {
+    margin-top: 44px;
+  }
+}
+
+@media (max-width: 900px) {
+  .plinko-game-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .plinko-game-container {
+    gap: 12px;
+    margin: 0;
+  }
+
+  .betactions-container {
+    /* max-width: 361px!important; */
+    display: flex;
+    justify-content: center;
+  }
+}
+

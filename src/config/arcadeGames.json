@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Crash",
+        "descripton": "Crash Rocket Game Multiply your money but risk losing it all if the Rocket Crashes before you cash out.",
+        "logo": "src/assets/images/crashcard.png"
+    },
+    {
+        "id": 2,
+        "name": "BusRide",
+        "descripton": "BusRide is a game that allows you to play a game of bus driving against the computer",
+        "logo": "src/assets/images/icp.png"
+    },
+    {
+        "id": 3,
+        "name": "Plinko",
+        "descripton": "Crash Rocket Game Multiply your money but risk losing it all if the Rocket Crashes before you cash out.",
+        "logo": "src/assets/images/crashcard.png"
+    }
+]

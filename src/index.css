@@ -1,0 +1,26 @@
+html {
+	height: 100vh;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #1A1B1E;
+	color: #fff;
+	font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.truncate {
+	flex: 1;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(0, 0, 0, 0.3);
+}

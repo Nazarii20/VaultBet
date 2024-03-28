@@ -1,0 +1,85 @@
+.playing-cards {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-inline: 20px;
+}
+
+.playing-card__container {
+  display: flex;
+  position: relative;
+}
+
+.playing-card__done-container {
+  display: none;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 4px;
+  bottom: 4px;
+  border-radius: 50%;
+  background-color: var(--panels-dark);
+}
+
+.playing-card__done-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.react-card-front,
+.react-card-back {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 940px) {
+  .playing-card__done-container {
+    display: block;
+  }
+
+  .playing-cards {
+    gap: 16px;
+    margin-bottom: 24px;
+    max-width: 200px;
+  }
+
+  .playing-card {
+    width: 80px;
+    height: 119px;
+  }
+}
+
+@media (max-height: 940px) {
+  .playing-cards {
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .playing-card {
+    /* width: 80px;
+    height: 119px; */
+  }
+}
+
+@media (max-height: 940px) AND (min-width: 940px) {
+  .playing-card__done-container {
+    /* display: block; */
+  }
+}
+
+@media (max-height: 1000px) AND (max-width: 1350px){
+  .playing-card {
+    width: 80px;
+    height: 119px;
+  }
+}
+
+@media (max-height: 820px) {
+  .playing-card {
+    width: 80px;
+    height: 119px;
+  }
+}

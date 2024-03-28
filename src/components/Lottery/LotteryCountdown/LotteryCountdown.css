@@ -1,0 +1,37 @@
+.lottery-card-countdown-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 24px;
+}
+
+.lottery-card .lottery-card-countdown-segment-label {
+	font-size: 20px;
+}
+
+.lottery-card .lottery-card-countdown-segment-value {
+	display: flex;
+	padding: 16px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin-top: 16px;
+	font-size: 24px;
+	font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	border-radius: 16px;
+	border: 2px solid rgba(256, 256, 256, 0.5);
+}
+
+.lottery-card-mobile .lottery-card-countdown-segment-label {
+	font-size: 18px;
+}
+
+.lottery-card-mobile .lottery-card-countdown-segment-value {
+	font-size: 22px;
+}
+
+.lottery-card-countdown-segment-separator {
+	margin: 16px;
+	margin-bottom: -32px;
+}

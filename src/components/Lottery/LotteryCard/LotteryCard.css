@@ -1,0 +1,64 @@
+.lottery-card {
+	display: flex;
+	position: relative;
+	padding: 40px 32px 32px 32px;
+	margin: 64px 12px;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	overflow: hidden;
+	gap: 24px;
+	color: var(--Text-White, #fff);
+	border-radius: 24px;
+	background: linear-gradient(156deg, rgba(92, 57, 244, 0.7) 1.04%, rgba(147, 61, 226, 0.7) 52.73%, rgba(221, 126, 110, 0.7) 99.3%);
+}
+
+.lottery-card-header {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 32px;
+	margin: 0;
+	margin-bottom: 36px;
+}
+
+.lottery-card-mobile {
+	margin: 24px 8px;
+	border-radius: 8px;
+}
+
+.lottery-card-header.lottery-card-mobile {
+	margin: 0;
+	margin-bottom: 24px;
+}
+
+.lottery-card-header .lottery-card-title {
+	position: absolute;
+	left: 54px;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: left;
+}
+
+.lottery-card-icon-main {
+	width: 140px;
+}
+
+.lottery-card-header .lottery-card-icon-main {
+	position: absolute;
+	width: 180px;
+	right: 32px;
+	bottom: -36px;
+}
+
+.lottery-card-icon-minor {
+	position: absolute;
+}
+
+.img-flipped {
+	transform: scaleX(-1);
+}
+
+.lottery-card-mobile .lottery-main-button {
+	width: 90%;
+}

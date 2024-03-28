@@ -1,0 +1,48 @@
+.lottery-purchase-panel {
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+.lottery-purchase-panel.lottery-panel-mobile {
+	padding: 8px 24px;
+}
+
+.lottery-purchase-panel-label {
+	margin-bottom: 4px;
+}
+
+.lottery-purchase-panel-input-container .MuiInputBase-root {
+	background: var(--Panels-Dark, rgba(26, 26, 29, 0.8));
+	border: none;
+}
+
+.lottery-purchase-panel-input-container input {
+	border-radius: 4px;
+	background: rgba(0, 0, 0, 0);
+}
+
+.lottery-purchase-panel-input-container span {
+	font-size: 16px;
+}
+
+.lottery-purchase-panel-input-container fieldset {
+	border: none;
+}
+
+.lottery-purchase-panel-button-group {
+	display: flex;
+	border-bottom: 1px solid #ffffff1c;
+	padding-bottom: 24px;
+}
+
+.lottery-purchase-panel-button-group button {
+	width: 100%;
+}
+
+.lottery-purchase-panel-button-group button + button {
+	margin-left: 8px;
+}
+
+.lottery-purchase-panel .lottery-purchase-panel-main-button {
+	padding: 24px;
+}

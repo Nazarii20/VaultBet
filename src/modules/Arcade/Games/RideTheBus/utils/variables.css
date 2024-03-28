@@ -1,0 +1,11 @@
+:root {
+  --panels-light: rgba(46, 50, 58, 0.70);
+  --panels-dark: rgba(26, 26, 29, 0.80);
+  --system-positive-default: #66E094;
+  --system-positive-hover-pressed: #56D184;
+  --text-w-hite: #FFF;
+  --text-black: #000;
+  --text-g-5: #D1D1D1;
+  --text-g-6: #8C8C8C;
+  --text-g-3: #E8E8E8;
+}

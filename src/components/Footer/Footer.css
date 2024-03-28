@@ -1,0 +1,135 @@
+.footer {
+  padding-top: 120px;
+  background: #FFF;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer__container {
+  max-width: 1408px;
+  margin: 0 auto;
+  padding-inline: 18px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+
+.footer__left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer__logo-text {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.footer__social {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 22px;
+}
+
+.footer__description {
+  color: #8C8C8C;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer__nav {
+  display: flex;
+  gap: 120px;
+}
+
+.footer__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footer__list-title {
+  margin: 0;
+  margin-bottom: 22px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.footer__list-item {
+  padding-block: 4px;
+  border-radius: 10px;
+  color: #8C8C8C;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+  transition: background-color 0.4s ease-in;
+}
+
+.footer__list-item:hover {
+  background-color: #e7e7e7;
+}
+
+.footer__list-button {
+  color: #8C8C8C;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.footer__list-img {
+  margin-right: 6px;
+}
+
+.footer__copyright {
+  color: #8C8C8C;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  padding-top: 25px;
+  padding-bottom: 65px;
+  border-top: 1px solid #DDD;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    padding-top: 80px;
+    margin-top: 120px;
+    background: #FFF;
+  }
+
+  .footer__content {
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-bottom: 120px;
+  }
+
+  .footer__nav {
+    flex-wrap: wrap;
+    gap: 56px;
+  }
+}

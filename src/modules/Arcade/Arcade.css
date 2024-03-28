@@ -1,0 +1,11 @@
+.arcade-game-cards {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 940px) {
+  .arcade-game-cards {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,53 @@
+.lottery-history-panel {
+	flex: 1;
+	border: 2px solid rgb(38, 43, 52);
+	border-right: none;
+	overflow: hidden;
+	padding: 0;
+}
+
+.lottery-history-panel h5 {
+	margin: 40px;
+	margin-bottom: 8px;
+	font-size: 18px;
+}
+
+.lottery-history-panel-table-container {
+	height: 350px;
+	overflow: auto;
+}
+
+.lottery-history-panel-table td,
+.lottery-history-panel-table th {
+	border: none;
+}
+
+.lottery-history-panel-table tr:nth-child(odd) {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.lottery-history-panel-table tr:nth-child(even) {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.lottery-history-panel-table thead tr th {
+	background-color: rgb(38, 43, 52);
+}
+
+.lottery-history-panel-table th:first-of-type {
+	padding-left: 40px;
+}
+
+.lottery-history-panel-table tr td:first-child {
+	padding-left: 40px;
+}
+
+.lottery-history-profit-cell * {
+	display: inline;
+	vertical-align: middle;
+}
+
+.lottery-history-profit-cell img {
+	width: 20px;
+	margin-right: 8px;
+}

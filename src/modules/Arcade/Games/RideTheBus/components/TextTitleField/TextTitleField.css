@@ -1,0 +1,35 @@
+.text-title-field__title {
+  margin: 0;
+  margin-bottom: 24px;
+  color: var(--text-w-hite);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.text-title-field__desc {
+  margin: 0;
+  color: var(--text-g-3);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@media (max-width: 940px) {
+  .text-title-field__info {
+    margin-inline: 24px;
+  }
+
+  .text-title-field__title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+
+  .text-title-field__desc{
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 40px;
+  }
+}

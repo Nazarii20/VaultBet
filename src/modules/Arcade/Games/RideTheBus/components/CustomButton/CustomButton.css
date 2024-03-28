@@ -1,0 +1,14 @@
+.button {
+  outline: none;
+  border: none;
+  padding: 24px 48px;
+  border-radius: 16px;
+  line-height: 22px;
+  background-color: var(--panels-dark);
+  border: 1px solid transparent;
+  color: var(--text-w-hite);
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.4s ease-in, background-color 0.4s ease-in;
+}

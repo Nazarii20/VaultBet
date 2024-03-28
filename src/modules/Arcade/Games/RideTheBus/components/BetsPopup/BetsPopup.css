@@ -1,0 +1,93 @@
+.bets-popup {
+  text-align: left;
+  padding: 40px;
+  padding-bottom: 80px;
+  background: var(--panels-dark);
+  border-radius: 24px;
+}
+
+.bets-popup__title {
+  margin: 0;
+  margin-bottom: 32px;
+  color: var(--text-w-hite);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.bets-popup__input-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bets-popup__label {
+  color: var(--text-w-hite);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.bets-popup__input {
+  box-sizing: border-box;
+  outline: none;
+  width: 266px;
+  padding: 16px;
+  padding-right: 100px;
+  border-radius: 4px;
+  border: 1px solid var(--text-g-6, #8C8C8C);
+  color: var(--text-w-hite);
+  background: var(--panels-light, rgba(46, 50, 58, 0.70));
+  position: relative;
+}
+
+.bets-popup__input-container {
+  position: relative;
+}
+
+.bets-popup__input::placeholder {
+  color: var(--text-g-6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.bets-popup__wallet {
+  display: none;
+}
+
+.bets-popup__balance {
+  color: var(--text-g-5);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.bets-popup__input-currency {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 940px) {
+  .bets-popup__wallet {
+    display: block;
+    border-bottom: 1px solid #2E323A;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+  }
+
+  .bets-popup {
+    padding: 24px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    max-width: 297px;
+    margin-bottom: 9px;
+  }
+
+  .bets-popup__input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,86 @@
+.entertainment-card {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  padding-top: 160px;
+  position: relative;
+  max-width: 448px;
+  height: 494px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.entertainment-card__img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.entertainment-card__title {
+  margin: 0;
+  margin-bottom: 32px;
+  position: relative;
+  z-index: 1;
+
+  color: #FFF;
+  text-align: left;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.entertainment-card__description {
+  margin: 0;
+  position: relative;
+  z-index: 1;
+
+  color: #D1D1D1;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.entertainment-card__buttonText {
+  position: relative;
+  z-index: 1;
+  border-radius: 16px;
+  background: #66E094;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  border: none;
+  width: 100%;
+  padding: 24px 48px;
+  margin-top: auto;
+  cursor: pointer;
+}
+
+.entertainment-card__gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: linear-gradient(1deg, #1F1D28 50.03%, rgba(16, 17, 17, 0.00) 99.28%);
+  border-radius: 16px;
+  border: 1px solid rgba(46, 50, 58, 0.70);
+}
+
+@media (max-width: 900px) {
+  .entertainment-card {
+    max-width: 345px;
+  }
+
+  .entertainment-card__img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

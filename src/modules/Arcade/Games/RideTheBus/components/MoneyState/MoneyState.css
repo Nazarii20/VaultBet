@@ -1,0 +1,50 @@
+.money-state {
+  display: flex;
+  align-items: center;
+}
+
+.money-state__content {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-right: 8px;
+}
+
+.money-state__text {
+  color: var(--text-w-hite);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px; 
+}
+
+.money-state__button {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+}
+
+.money-state__currency {
+  color: var(--text-w-hite);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+@media (max-width: 940px) {
+  .money-state {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .money-state__content {
+    gap: 8px;
+  }
+
+  .money-state__currency {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}

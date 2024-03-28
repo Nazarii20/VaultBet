@@ -1,0 +1,21 @@
+.card-status {
+  width: calc(100% - 50px);
+  /* width: 100%; */
+  margin: 0 auto;
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 80px;
+  background: var(--panels-dark);
+  color: var(--text-w-hite);
+  font-size: 70%;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.card-status__currency {
+  display: flex;
+  align-items: center;
+}

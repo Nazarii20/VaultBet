@@ -1,0 +1,38 @@
+.balance-container {
+  display: flex;
+}
+
+.side_header {
+  display: flex;
+}
+
+.header {
+  padding-block: 24px;
+  padding-inline: 48px;
+}
+
+.dialog-currency-dropdown {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 940px) {
+  .side_header {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .balance-container {
+    justify-content: space-around;
+    margin-bottom: '24px';
+  }
+
+  .header {
+    padding-block: 0px;
+    padding-inline: 0px;
+  }
+  
+}

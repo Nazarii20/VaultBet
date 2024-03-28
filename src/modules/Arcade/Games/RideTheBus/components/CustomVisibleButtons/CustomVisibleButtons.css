@@ -1,0 +1,29 @@
+.custom-visible-buttons {
+  display: flex;
+  gap: 24px;
+}
+
+.custom-visible-buttons__inner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+@media (max-width: 940px) {
+  .custom-visible-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .custom-visible-buttons__inner {
+    gap: 8px;
+  }
+
+  .custom-visible-buttons button {
+    max-width: 160px;
+    padding-inline: 0;
+    display: flex;
+    justify-content: center;
+  }
+}

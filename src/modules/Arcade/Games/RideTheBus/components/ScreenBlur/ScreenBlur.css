@@ -1,0 +1,11 @@
+.screen-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(22, 24, 25, 0.60);
+  backdrop-filter: blur(2px);
+  padding-inline: 16px;
+  z-index: 99;
+}

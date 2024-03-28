@@ -1,0 +1,46 @@
+.disclaimer-banner {
+  padding-top: 160px;
+  margin-bottom: 200px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+}
+
+.disclaimer-banner__title {
+  margin: 0;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 80px;
+
+  background: linear-gradient(156deg, #5C39F4 1.04%, #933DE2 52.73%, #DD7E6E 99.3%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.disclaimer-banner__description {
+  margin: 0;
+  color: #8C8C8C;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 612px;
+}
+
+@media (max-width: 900px) {
+  .disclaimer-banner {
+    padding-top: 60px;
+    margin-bottom: 140px;
+    gap: 32px;
+  }
+
+  .disclaimer-banner__title {
+    font-size: 55px;
+    line-height: 50px;
+  }
+
+  .disclaimer-banner__space {
+    display: none;
+  }
+}

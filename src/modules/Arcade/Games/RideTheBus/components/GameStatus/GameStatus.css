@@ -1,0 +1,33 @@
+.status-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.status-field__current {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+
+@media (max-width: 940px) {
+  .status-field {
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .status-field__button {
+    display: none;
+  }
+
+  .status-field__current {
+    width: 100%;
+    flex-direction: row;
+    gap: 12px;
+    
+  }
+  
+}

@@ -1,0 +1,113 @@
+.bet-actions-container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 496px;
+  background-color: rgba(46, 50, 58, 0.70);
+  padding: 24px;
+  border-radius: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bet-amount-input {
+  width: calc(100% - 35px);
+  padding-block: 14px;
+  padding-inline: 16px;
+  outline: none;
+  background: rgba(26, 26, 29, 0.80);
+  border: 1px solid #2E323A;
+  border-radius: 4px;
+  color: #FFF;
+}
+
+.bet-amount-input::placeholder {
+  color: #8C8C8C;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.quick-bet-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.quick-bet-button {
+  width: 100%;
+  padding-block: 10px;
+  padding-inline: 16px;
+  border-radius: 4px;
+  border: none;
+  background: rgba(26, 26, 29, 0.80);
+  color: #8C8C8C;
+  font-family: 'Poppins';
+  transition: all .5s ease-in;
+}
+
+.quick-bet-button-active {
+  background-color: #101111;
+  color: #FFF;
+}
+
+.quick-bet-button:hover {
+  background-color: #101111;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.drop-button {
+  width: 100%;
+  padding-inline: 48px;
+  padding-block: 24px;
+  border-radius: 16px;
+  outline: none;
+  border: none;
+  background: rgba(26, 26, 29, 0.80);
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+/* .drop-button:hover {
+  background-color: #80e1a4;
+} */
+
+.drop-button-active {
+  background: #56D184;
+  color: #000;
+}
+
+.bet-actions-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  .bet-actions-container {
+    padding-block: 16px;
+    width: 100%;
+    margin-inline: 16px;
+  }
+
+  .quick-bet-buttons {
+    margin-bottom: 5px;
+  }
+
+  .drop-button {
+    padding-block: 16px;
+  }
+
+  .bet-actions-title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

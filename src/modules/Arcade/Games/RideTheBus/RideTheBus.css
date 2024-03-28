@@ -1,0 +1,93 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.ride-the-bus {
+  padding-inline: 48px;
+}
+
+.game-field {
+  display: flex;
+  gap: 48px;
+}
+
+.ride-the-bus__lets-play {
+  display: none;
+}
+
+.game-field__cash-out {
+  display: none;
+}
+
+.game-loader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(22, 24, 25, 0.60);
+  backdrop-filter: blur(2px);
+}
+
+@media (max-width: 940px) {
+  .game-field__cash-out {
+    display: block;
+  }
+
+  .game-field__cash-out button {
+    width: 100%;
+  }
+
+  .ride-the-bus{
+    padding-inline: 16px;
+    padding-top: 16px;
+  }
+
+  .game-field {
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 16px;
+  }
+
+  .ride-the-bus__wallet {
+    display: none;
+  }
+
+  .ride-the-bus__lets-play {
+    display: block;
+    margin-top: 12px;
+  }
+
+  .ride-the-bus__lets-play button {
+    width: 100%;
+  }
+
+  .ride-the-bus__navbar {
+    display: none;
+  }
+
+  .ride-the-bus__navbar-mobile .side_header {
+    flex-direction: column;
+    gap: 24px;
+    padding: 0;
+    margin-top: 24px;
+  }
+  
+  .ride-the-bus__navbar-mobile .balance-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .ride-the-bus__navbar-mobile .arcade_btn {
+    width: 100%;
+    gap: 8px;
+  }
+
+  .ride-the-bus__navbar-mobile .arcade_btn button {
+    width: 100%;
+    font-size: 18px!important;
+    padding-block: 16px!important;
+  }
+}
